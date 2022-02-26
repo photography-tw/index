@@ -1,0 +1,92 @@
+hmtl{
+    background: antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: black
+}
+
+h1{
+    font-family: system-ui;
+    font-size: 40px
+}
+
+h2,h3{
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-size: 26px
+}
+
+p1,p4{
+    font-family: system-ui;
+    font-size: 18px
+}
+p2{
+    font-family: system-ui;
+    font-size: 15px
+}
+p3{
+    font-family: system-ui;
+    font-size: 22px
+}
+p5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px
+}
+p6{
+    font-family: system-ui;
+    font-size: 15px
+}
+.header{
+    margin-top: 50px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+    background: gray;
+    
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+    background: #ddd;
+  color: black;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+   background: gray;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
